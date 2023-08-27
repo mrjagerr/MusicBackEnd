@@ -38,7 +38,7 @@ namespace MusicBackendApi.Migrations
 
                     b.Property<string>("ReleaseDate")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasColumnType("DATETIME");
 
                     b.Property<string>("Title")
                         .IsRequired()

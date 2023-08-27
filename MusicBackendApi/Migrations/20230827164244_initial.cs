@@ -26,7 +26,7 @@ namespace MusicBackendApi.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Album = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    ReleaseDate = table.Column<string>(type: "longtext", nullable: false)
+                    ReleaseDate = table.Column<string>(type: "DATETIME", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Genre = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
